@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.parte-cima {
+  display: flex;
+  align-items: center;
+}
+
+#header {
+  padding-top: 50px;
+  padding-left: 90px;
+  /* border: 1px solid red; */
+}
+
+.logo img {
+  width: 253px;
+  /* border: 1px solid red; */
+}
+
+.barra-pesquisa {
+  width: 559px;
+  padding: 15px;
+  background-color: #f8f0f0;
+  border: none;
+  border-radius: 8px;
+}
+
+.barra-container {
+  margin-left: 30px;
+}
+
+p a {
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 15px;
+  margin-left: 35px;
+  color: #474747;
+}
+
+.botao-login {
+  margin-left: 20px;
+  width: 114px;
+  height: 40px;
+  border-radius: 8px;
+  background: #c92071;
+  border: none;
+}
+
+.botao-login a {
+  color: white;
+  text-decoration: none;
+}
