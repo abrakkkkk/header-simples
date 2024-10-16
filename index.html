@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header id="header">
-      <div class="parte-cima">
-        <div class="logo">
-          <img src="./logo.png" />
-        </div>
 
-        <div class="barra-container">
-          <input
-            type="text"
-            class="barra-pesquisa"
-            placeholder="Pesquisar produto..."
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
 
-        <p><a href="#">Cadastre-se</a></p>
-
-        <div class="butao">
-          <button class="botao-login">
-            <a href="">Entrar</a>
-          </button>
-        </div>
-      
+<body>
+  <header id="header">
+    <div class="parte-cima">
+      <div class="logo">
+        <img src="./logo.svg" />
       </div>
-    </header>
-  </body>
+      <div class="barra-container">
+        <input type="text" class="barra-pesquisa" placeholder="Pesquisar produto..." />
+        <img src="./Search.svg" class="search-icon" alt="Lupa" />
+      </div>
+      <div class="register">
+        <p><a href="#">Cadastre-se</a></p>
+      </div>
+      <div class="butao">
+        <button class="botao-login">
+          <a href="">Entrar</a>
+        </button>
+      </div>
+      <div>
+        <img src="./cart.svg" alt="">
+      </div>
+    </div>
+
+    <div class="parte-baixo">
+      <nav class="nav-bar">
+        <a class="active" href="#">Home</a>
+        <a href="#">Produtos</a>
+        <a href="#">Categorias</a>
+        <a href="#">Meus produtos</a>
+      </nav>
+    </div>
+  </header>
+</body>
+
 </html>
