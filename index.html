@@ -13,34 +13,45 @@
 </head>
 
 <body>
-  <header id="header">
-    <div class="parte-cima">
+  <header class="w-full py-[40px] px-[90px]">
+
+    <div class="flex items-center gap-[60px]">
+      <!-- Logo -->
       <div class="logo">
-        <img src="./logo.svg" />
+        <img src="./logo.svg" class="w-[253px]" />
       </div>
-      <div class="barra-container">
-        <input type="text" class="barra-pesquisa" placeholder="Pesquisar produto..." />
-        <img src="./Search.svg" class="search-icon" alt="Lupa" />
+
+      <!-- Barra de Pesquisa -->
+      <div class="flex relative items-center">
+        <input type="text" class="barra-pesquisa w-[559px] p-[15px] bg-[#F5F5F5] border-none rounded-[8px] placeholder-[#666666]/60" placeholder="Pesquisar produto..." />
+        <img src="./Search.svg" class="absolute left-[520px] w-[20px] text-[#666666] opacity-50" alt="Lupa" />
       </div>
+
+      <!-- Cadastre-se -->
       <div class="register">
-        <p><a href="#">Cadastre-se</a></p>
+        <a class="text-[16px] leading-[28px] text-[#474747] whitespace-nowrap underline underline-offset-4" href="#">Cadastre-se</a>
       </div>
-      <div class="butao">
-        <button class="botao-login">
-          <a href="">Entrar</a>
+
+      <!-- Botão de Login -->
+      <div class="botao">
+        <button class="w-[114px] h-[40px] rounded-[8px] bg-[#c92071]">
+          <a class="py-[9px] px-[29px] text-white font-bold" href="#">Entrar</a>
         </button>
       </div>
+
+      <!-- Carrinho de Compras -->
       <div>
         <img src="./cart.svg" alt="">
       </div>
     </div>
 
-    <div class="parte-baixo">
-      <nav class="nav-bar">
-        <a class="active" href="#">Home</a>
-        <a href="#">Produtos</a>
-        <a href="#">Categorias</a>
-        <a href="#">Meus produtos</a>
+    <div>
+      <!-- Barra de Navegação -->
+      <nav class="flex gap-[25px] py-[40px] pl-[2px]">
+        <a class="text-[16px] text-[#c92071] border-b-2 border-[#c92071] font-[700] whitespace-nowrap" href="#">Home</a>
+        <a class="text-[16px] text-[#474747] font-[400px] whitespace-nowrap" href="#">Produtos</a>
+        <a class="text-[16px] text-[#474747] font-[400px] whitespace-nowrap" href="#">Categorias</a>
+        <a class="text-[16px] text-[#474747] font-[400px] whitespace-nowrap" href="#">Meus produtos</a>
       </nav>
     </div>
   </header>
